@@ -19,21 +19,6 @@
         font-size: 1.875rem;
         font-weight: 600;
     }
-
-    .button-container {
-        display: flex;
-        justify-content: stretch;
-        justify-items: stretch;
-    }
-
-    .button-position {
-        position: absolute;
-        right: 3.5rem;
-        width: 8rem;
-        height: 4rem;
-				bottom: 1rem;
-				margin-bottom: 8rem;
-    }
 </style>
 
 <div class="container">
@@ -41,11 +26,5 @@
 </div>
 
 <Tictactoe />
-
-<div class="button-container">
-	<div class="button-position">
-		<Button />
-	</div>
-</div>
 
 <Boards />
